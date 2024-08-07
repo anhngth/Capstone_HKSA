@@ -1,0 +1,84 @@
+SheetConnection capstone_exact ("D:\\D\\University\\4th year\\1. Capstone\\Capstone - Code\\After submit\\set4.xlsx");
+
+numK = 3;
+
+numP = 1;
+numD = 2;
+numC = 3;
+numW = 3;
+numT = 1;
+numI = 5;
+numF = 12;
+
+//cost
+Fc_d_small          from SheetRead (capstone_exact, "Fc_d_small");
+Fc_d_medium         from SheetRead (capstone_exact, "Fc_d_medium");
+Fc_d_large          from SheetRead (capstone_exact, "Fc_d_large");
+
+size_d_small        from SheetRead (capstone_exact, "size_d_small");
+size_d_medium       from SheetRead (capstone_exact, "size_d_medium");
+size_d_large        from SheetRead (capstone_exact, "size_d_large");
+
+Fc_c_small          from SheetRead (capstone_exact, "Fc_c_small");
+Fc_c_medium         from SheetRead (capstone_exact, "Fc_c_medium");
+Fc_c_large          from SheetRead (capstone_exact, "Fc_c_large");
+
+size_c_small        from SheetRead (capstone_exact, "size_c_small");
+size_c_medium       from SheetRead (capstone_exact, "size_c_medium");
+size_c_large        from SheetRead (capstone_exact, "size_c_large");
+
+vb_p                from SheetRead (capstone_exact, "vb_p");
+vb_d                from SheetRead (capstone_exact, "vb_d");
+vb_c                from SheetRead (capstone_exact, "vb_c");
+vb_w                from SheetRead (capstone_exact, "vb_w");
+vr                  from SheetRead (capstone_exact, "vr");
+Pur_RM              from SheetRead (capstone_exact, "Pur_RM");
+Pur_PCK             from SheetRead (capstone_exact, "Pur_PCK");
+
+
+cost_pd             from SheetRead(capstone_exact, "Cost_pd");
+cost_pf             from SheetRead(capstone_exact, "Cost_pf");
+cost_df             from SheetRead(capstone_exact, "Cost_df");
+cost_dc             from SheetRead(capstone_exact, "Cost_dc");
+cost_fc             from SheetRead(capstone_exact, "Cost_fc");
+cost_cw             from SheetRead(capstone_exact, "Cost_cw");
+cost_cp             from SheetRead(capstone_exact, "Cost_cp");
+
+distance_pd         from SheetRead(capstone_exact, "distance_pd");
+distance_pf         from SheetRead(capstone_exact, "distance_pf");
+distance_df         from SheetRead(capstone_exact, "distance_df");
+distance_dc         from SheetRead(capstone_exact, "distance_dc");
+distance_fc         from SheetRead(capstone_exact, "distance_fc");
+distance_cw         from SheetRead(capstone_exact, "distance_cw");
+distance_cp         from SheetRead(capstone_exact, "distance_cp");
+
+// Other parameters
+IT                  from SheetRead (capstone_exact, "IT");
+Dmd                 from SheetRead (capstone_exact, "Dmd");
+theta               from SheetRead (capstone_exact, "theta");
+phi                 from SheetRead (capstone_exact, "phi");
+gamma               from SheetRead (capstone_exact, "gamma");
+Def                 from SheetRead (capstone_exact, "Def");
+Qal                 from SheetRead (capstone_exact, "Qal");
+omega               from SheetRead (capstone_exact, "omega");
+beta                from SheetRead (capstone_exact, "beta");
+CP_p                = [12000000];
+CP_d                from SheetRead (capstone_exact, "CP_d");
+CP_c                from SheetRead (capstone_exact, "CP_c");
+CP_w                from SheetRead (capstone_exact, "CP_w");
+
+// Emission
+Es_p                from SheetRead (capstone_exact, "Es_p");
+Es_d                from SheetRead (capstone_exact, "Es_d");
+Es_c                from SheetRead (capstone_exact, "Es_c");
+Es_w                from SheetRead (capstone_exact, "Es_w");
+Esr                 from SheetRead (capstone_exact, "Esr");
+Esm                 from SheetRead (capstone_exact, "Esm");
+
+Emission_pd         from SheetRead (capstone_exact, "Emission_pd");
+Emission_pf         from SheetRead (capstone_exact, "Emission_pf");
+Emission_df         from SheetRead (capstone_exact, "Emission_df");
+Emission_dc         from SheetRead (capstone_exact, "Emission_dc");
+Emission_fc         from SheetRead (capstone_exact, "Emission_fc");
+Emission_cw         from SheetRead (capstone_exact, "Emission_cw");
+Emission_cp         from SheetRead (capstone_exact, "Emission_cp");
