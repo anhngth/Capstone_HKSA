@@ -7,7 +7,7 @@ The results demonstrate the practicality and efficiency of our proposed model, w
 
 PPT: [https://drive.google.com/drive/folders/1aZxom3_2tS2jTI1yyAp9YTJvg-cg26my](url)
 
-Repo usgae:
+Repository usage:
 - Folder HKSA: Python code for near-optimal solution, large scale problem
 1. Run the Cost_game file -> Record the Minimized Cost and Maximized CO2 emission
 2. Run the Emission file -> Record the Minimized Emission and Maximized Cost
