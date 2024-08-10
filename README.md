@@ -12,7 +12,8 @@ Repository usage:
 1. Run the Cost_game file -> Record the Minimized Cost and Maximized CO2 emission
 2. Run the Emission file -> Record the Minimized Emission and Maximized Cost
 3. Input above result into Compromise file -> Get the optimal network  
+
 The Cost_Nogame is used for validation.
 
-- Folder MILP: CPLEX Code for optimal solution, small scale problem
+- Folder MILP: CPLEX Code for optimal solution, small scale problem  
 The running procedure is the same as HKSA.
