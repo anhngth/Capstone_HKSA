@@ -16,4 +16,4 @@ Repository usage:
 The Cost_Nogame is used for validation.
 
 - Folder MILP: CPLEX Code for optimal solution, small scale problem
-/The running procedure is the same as HKSA.
+The running procedure is the same as HKSA.
