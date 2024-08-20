@@ -5,7 +5,7 @@ A Hybrid Keshtel Simulated Annealing and Game Model approch for designing close-
 Abstract: A case study from a dairy manufacturer is invested in developing a supply chain network design for both products and packaging. The packaging includes carton boxes, glass bottles, and plastic bottles, in which carton boxes and plastic bottles can be remanufactured, and qualified glass will be cleaned and reused. The goal of the study is to find the most suitable locations for allocating distribution and collection centers which will minimize all transporation, purchasing and manufacturing cost. The project applied Hybrid Keshtel and Simulated Annealing algorithm, along with intensive usage of game model to balance the benefits of both Company and suppliers, and Fuzzy Compromise method to find a solution which both cost-effective and minimized-CO2 emssion.
 The results demonstrate the practicality and efficiency of our proposed model, which create a suitable network for the CLSC of packaging for dairy products.
 
-PPT: [https://drive.google.com/file/d/16ev_ehT8ec8cCdYFGRmL0opxZ9heHZ4O/view?usp=drive_link](url)
+PPT: https://drive.google.com/file/d/16ev_ehT8ec8cCdYFGRmL0opxZ9heHZ4O/view?usp=drive_link
 
 Repository usage:
 - Folder HKSA: Python code for near-optimal solution, large scale problem
